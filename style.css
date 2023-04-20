@@ -41,10 +41,12 @@
   margin: 0;
   padding: 0px;
 }
-.list__item, .list-title{
+.list__item, 
+.list-title {
   list-style: none;
 }
-.input-task,.btn{
+.input-task,
+.btn{
   outline: none;
 }
 .btn {
@@ -118,7 +120,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list__item >    .input-task[type="text"] {
+.list__item > .input-task[type="text"] {
   width: 226px;
 }
 .remove-icon {
