@@ -18,7 +18,7 @@
         <label class="add-task-text" for="add-task-name">Add Item</label>
         <div class="add-task__wrapper">
           <input id="add-task-name"
-                 class="input-task task" 
+                 class="task__input task" 
                  type="text">
           <button class="btn add">Add</button>
         </div>
@@ -26,18 +26,18 @@
       <h3 class="list-title">Todo</h3>
       <ul class="list" id="incomplete-tasks">
         <li class="list__item">
-          <input class="input-task" type="checkbox">
+          <input class="task__input" type="checkbox">
           <label class="task">Pay Bills</label>
-          <input class="input-task" type="text" class="task">
+          <input class="task__input" type="text" class="task">
           <button class="btn edit">Edit</button>
           <button class="btn delete">
             <img class="remove-icon" alt="remove icon" src="./remove.svg">
           </button>
         </li>
-        <li class="list__item edit-mode">
-          <input class="input-task" type="checkbox">
+        <li class="list__item list-edit-mode__item">
+          <input class="task__input" type="checkbox">
           <label class="task">Go Shopping</label>
-          <input class="input-task" type="text" 
+          <input class="task__input" type="text" 
                  value="Go Shopping" 
                  class="task">
           <button class="btn edit">Save</button>
@@ -49,9 +49,9 @@
       <h3>Completed</h3>
       <ul class="list" id="completed-tasks">
         <li class="list__item">
-          <input class="input-task" type="checkbox" checked>
+          <input class="task__input" type="checkbox" checked>
           <label class="task">See the Doctor</label>
-          <input class="input-task" type="text" class="task">
+          <input class="task__input" type="text" class="task">
           <button class="btn edit">Edit</button>
           <button class="btn delete">
             <img class="remove-icon" alt="remove icon" src="./remove.svg">
